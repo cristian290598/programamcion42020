@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+header{
+    border: 1px solid red;
+    text-align: center;
+    
+    width: 80%;
+}
+
+.cuadro_Principal{
+    background ;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    border: 1px solid red;
+    padding: 1rem;
+    flex: 0 0 90%;
+    
+    
+}
+.division1{
+    border: 1px solid  red;
+    text-align: center;
+    flex: 0 0 25%;
+}
+
+.division2{
+    border: 1px solid  red;
+    text-align: center;
+    display: flex;
+    flex:0 0 75% ;
+    
+}
+
+.division2_1{
+    border: 1px solid  red;
+    text-align: center;
+    padding: 1rem;
+    flex: 0 0 50%;
+    
+}
+.division3{
+    border: 1px solid  red;
+    text-align: center;
+    flex: 0 0 50%;
+   
+}
+
+.final{
+    border: 1px solid red;
+    text-align: center;
+}
+
+.margen{
+    margin-bottom: 10px;
+}
