@@ -1,0 +1,21 @@
+.border-element{
+   
+    border: 1px solid blue;
+    padding: 2rem;
+    box-sizing: border-box;
+    width: 90%;
+    height: 80%;
+   
+}
+
+.main_frame{
+    display: flex;
+    flex:0 0 20% ;
+   
+
+}
+.second_frame{
+    display: flex;
+    flex:0 0 50% ;
+    align-content: flex-end;
+}
