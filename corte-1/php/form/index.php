@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,13 +9,14 @@
 </head>
 <body>
     <form method = "post" action ="check.php">
-        ingrese nombre de la persona
+        
+       <h1> ingrese nombre de la persona</h1>
         <br><br/>
         
         <label for=""> Nombre</label>
         <input type="text" name="nombre" >
         <label for=""> Apellido</label>
-        <input type="text" surname="apellido" >
+        <input type="text" name="apellido" >
         <br><br/>
 
         <label for=""> Edad</label>
@@ -34,14 +34,9 @@
             <option value="comunicacion"> comunicacion</option>
             
         </select>
-        
-
-
         <br><br/>
         <input type="submit" value="enviar ">
-
         
-
     </form>
 </body>
 </html>

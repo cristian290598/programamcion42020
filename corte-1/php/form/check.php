@@ -1,5 +1,4 @@
 <?php
-    
     if (isset($_POST['submit'])) {
         $nombre= $_POST['nombre'];
         $apellido= $_POST['apellido'];
@@ -7,12 +6,10 @@
         $genero= $_POST['genero'];
         $carrera= $_POST['carrera'];
     }
-    
-
-      
+    /*
     if  (isset($_POST['submit'])) {
         if (empty($nombre)) {
-            echo"agrega el nombre"; 
+            echo"<p class ='error'>.agrega el nombre</p>"; 
         }else {
             if ($_POST['nombre']==nombre) {
                 echo $_POST['nombre']. "es el nombre del estudiante";
@@ -69,6 +66,15 @@
                 echo"la carrera que estudia es medicina";
             }
         }
-    }
+    }*/
 
 ?>
+ <?php echo "el nombre es:".$_POST['nombre']; ?> 
+<br><br/>
+<?php echo "el apellido es:".$_POST['apellido'];?>
+<br><br/> 
+<?php echo "la edad es:".$_POST['edad'];?>
+<br><br/>
+<?php echo "el genero es:".$_POST['genero']; ?>
+<br><br/>
+<?php echo "la carrera es:".$_POST['carrera']; ?>    
